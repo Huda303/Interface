@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1d66c30ae3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700 text-[#273240] hover:bg-[#A6ABC8] hover:text-[#5A67BA] hover:bg-opacity-30&display=swap');
+    .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+</style>
+    <title>My site</title>
+</head>
+<body>
+<div class="box-border relative bg-[#ffffff]">
+    <!-- navgation -->
+    <div class=" fixed justify-center items-center border-b-2 border-gray-200 w-screen flex h-[70px] bg-white">
+      <div class="relative">
+        <input class="rounded-md w-[450px] outline-none border-0 py-1 bg-[#A6ABC844]" type="text" name="" id="" placeholder="Search">
+        <a class="absolute flex top-[6px] right-2" class="" href="">
+            <svg class="w-5 h-5 fill-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path  d="M23 36c-7.2 0-13-5.8-13-13s5.8-13 13-13s13 5.8 13 13s-5.8 13-13 13m0-24c-6.1 0-11 4.9-11 11s4.9 11 11 11s11-4.9 11-11s-4.9-11-11-11"/><path d="m32.682 31.267l8.98 8.98l-1.414 1.414l-8.98-8.98z"/></svg>
+        </a>
+      </div>
+    </div>
+    <!-- end navgation -->
+    
+   
+    <!-- Sidebar -->
+     <div class="fixed bg-[#F1F2F7] h-screen sm:w-[180px] md:w-[200px] 2xl:w-[300px]">
+        <!-- logo -->
+         <div class="flex items-center gap-2 px-6 border-b-2 border-gray-200 h-[70px]">
+            <span class = "bg-[#5A67BA] rounded-full text-sm 
+             w-[30px] h-[30px] text-white font-bold flex justify-center
+            items-center">
+             E
+            </span>
+            <h3 class = "text-[#5A67BA] font-medium">ERP</h3>
+        </div>
+       
+
+         <!-- end logo -->
+      
+          <ul class = "m-6 space-y-5 poppins-normal">
+            <li class="flex gap-2 md:w-[150px] font-medium text-sm hover:font-bold 2xl:w-[200px] hover:rounded-md transition duration-300 text-[#273240] hover:bg-[#A6ABC8] hover:text-[#5A67BA] hover:bg-opacity-30 ease-in-out cursor-pointer hover:bg-[#979797] hover:roun p-1 transition duration-300 text-[#273240] hover:bg-[#A6ABC8] hover:text-[#5A67BA] hover:bg-opacity-30 ease-in-out cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 21 21"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m1.5 10.5l9-9l9 9"/><path d="M3.5 8.5v8a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-8"/></g></svg>
+                <a class="" href="#content1">Home</a>
+            </li>
+            <li  class="flex gap-2  md:w-[150px] font-medium text-sm hover:font-bold 2xl:w-[200px] hover:bg-[#979797] hover:rounded-md p-1 transition duration-300 text-[#273240] hover:bg-[#A6ABC8] hover:text-[#5A67BA] hover:bg-opacity-30 ease-in-out cursor-pointer">
+                <svg  xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor"><path d="M10.996 10h.015M11 16h.015M7 13h8"/><circle cx="1.5" cy="1.5" r="1.5" transform="matrix(1 0 0 -1 16 8)"/><path d="M2.774 11.144c-1.003 1.12-1.024 2.81-.104 4a34 34 0 0 0 6.186 6.186c1.19.92 2.88.899 4-.104a92 92 0 0 0 8.516-8.698a1.95 1.95 0 0 0 .47-1.094c.164-1.796.503-6.97-.902-8.374s-6.578-1.066-8.374-.901a1.95 1.95 0 0 0-1.094.47a92 92 0 0 0-8.698 8.515"/></g></svg>
+                <a class="" href="#content2">Accounting</a>
+            </li>
+            <li  class="flex gap-2  md:w-[150px] font-medium text-sm hover:font-bold 2xl:w-[200px] hover:bg-[#979797] hover:rounded-md p-1 transition duration-300 text-[#273240] hover:bg-[#A6ABC8] hover:text-[#5A67BA] hover:bg-opacity-30 ease-in-out cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24"><path fill="currentColor" d="M2.5 4.25a.75.75 0 0 1 .75-.75h.558c.95 0 1.52.639 1.845 1.233c.217.396.374.855.497 1.271L6.25 6h12.498c.83 0 1.43.794 1.202 1.593l-1.828 6.409a2.75 2.75 0 0 1-2.644 1.996H9.53a2.75 2.75 0 0 1-2.652-2.022l-.76-2.772l-1.26-4.248l-.001-.008c-.156-.567-.302-1.098-.52-1.494C4.128 5.069 3.96 5 3.809 5H3.25a.75.75 0 0 1-.75-.75m5.073 6.59l.751 2.739c.15.542.643.919 1.206.919h5.948a1.25 1.25 0 0 0 1.202-.907L18.417 7.5H6.585l.974 3.287zM11 19a2 2 0 1 1-4 0a2 2 0 0 1 4 0m-1.5 0a.5.5 0 1 0-1 0a.5.5 0 0 0 1 0m8.5 0a2 2 0 1 1-4 0a2 2 0 0 1 4 0m-1.5 0a.5.5 0 1 0-1 0a.5.5 0 0 0 1 0"/></svg>            
+                <a class="" href="">Buying</a>
+            </li>
+            <li  class="flex gap-2  md:w-[150px] font-medium text-sm   hover:font-bold 2xl:w-[200px] hover:bg-[#979797] hover:rounded-md p-1 transition duration-300 text-[#273240] hover:bg-[#A6ABC8] hover:text-[#5A67BA] hover:bg-opacity-30 ease-in-out cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 32 32"><path fill="currentColor" d="M5 6C3.355 6 2 7.355 2 9v14c0 1.645 1.355 3 3 3h22c1.645 0 3-1.355 3-3V9c0-1.645-1.355-3-3-3zm0 2h22c.566 0 1 .434 1 1v14c0 .566-.434 1-1 1H5c-.566 0-1-.434-1-1V9c0-.566.434-1 1-1m6 2c-2.2 0-4 1.8-4 4c0 1.113.477 2.117 1.219 2.844A5.04 5.04 0 0 0 6 21h2c0-1.668 1.332-3 3-3s3 1.332 3 3h2a5.04 5.04 0 0 0-2.219-4.156C14.523 16.117 15 15.114 15 14c0-2.2-1.8-4-4-4m7 1v2h8v-2zm-7 1c1.117 0 2 .883 2 2s-.883 2-2 2s-2-.883-2-2s.883-2 2-2m7 3v2h8v-2zm0 4v2h5v-2z"/></svg>
+                <a class="" href="">Selling</a>
+            </li>
+            <li  class="flex gap-2  md:w-[150px] font-medium text-sm   hover:font-bold 2xl:w-[200px] hover:bg-[#979797] hover:rounded-md p-1 transition duration-300 text-[#273240] hover:bg-[#A6ABC8] hover:text-[#5A67BA] hover:bg-opacity-30 ease-in-out cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 20 20"><path fill="currentColor" d="M11.3 2.48a3.5 3.5 0 0 0-2.6 0L2.943 4.785A1.5 1.5 0 0 0 2 6.176v7.646a1.5 1.5 0 0 0 .943 1.393L8.7 17.518a3.5 3.5 0 0 0 2.6 0l5.757-2.303A1.5 1.5 0 0 0 18 13.822V6.176a1.5 1.5 0 0 0-.943-1.392zm-2.228.93a2.5 2.5 0 0 1 1.857 0l5.225 2.09l-2.279.91l-6.154-2.46zM6.375 4.487l6.154 2.461L10 7.961L3.846 5.499zm4.125 4.35l6.5-2.6v7.584a.5.5 0 0 1-.314.465l-5.757 2.303q-.21.083-.429.128zm-1 0v7.88a2.5 2.5 0 0 1-.428-.128l-5.758-2.303A.5.5 0 0 1 3 13.822V6.238z"/></svg>
+                <a class="" href="">Stock</a>
+            </li>
+            <li class="flex gap-2  md:w-[150px] font-medium text-sm   hover:font-bold 2xl:w-[200px] hover:bg-[#979797] hover:rounded-md p-1 transition duration-300 text-[#273240] hover:bg-[#A6ABC8] hover:text-[#5A67BA] hover:bg-opacity-30 ease-in-out cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M8.921 7.293a.75.75 0 0 1 .957.457a2.251 2.251 0 0 0 4.245 0a.75.75 0 1 1 1.414.5a3.751 3.751 0 0 1-7.073 0a.75.75 0 0 1 .457-.957m3.44-1.793h-.722c-1.625 0-2.707.003-3.527.104c-.778.096-1.137.263-1.389.472c-.252.21-.482.531-.72 1.278c-.25.787-.452 1.85-.752 3.448c-.42 2.24-.702 3.761-.752 4.907c-.048 1.105.137 1.575.397 1.888s.687.581 1.782.737c1.135.162 2.683.166 4.962.166h.72c2.28 0 3.827-.004 4.962-.166c1.095-.156 1.522-.424 1.782-.737c.26-.314.445-.783.397-1.888c-.05-1.146-.332-2.667-.752-4.907c-.3-1.598-.501-2.66-.752-3.448c-.238-.747-.468-1.069-.72-1.278s-.61-.376-1.389-.472c-.82-.101-1.902-.104-3.527-.104m-6.596-.578c-1.11.922-1.403 2.483-1.988 5.604c-.823 4.389-1.235 6.583-.035 8.029S7.174 20 11.64 20h.72c4.466 0 6.699 0 7.899-1.445s.788-3.64-.035-8.03c-.585-3.12-.878-4.681-1.989-5.603C17.125 4 15.536 4 12.361 4h-.722c-3.175 0-4.763 0-5.874.922" clip-rule="evenodd"/></svg>
+                <a class="" href="">Assets</a>
+            </li>
+            <li  class="flex gap-2  md:w-[150px] font-medium text-sm    hover:font-bold 2xl:w-[200px] hover:bg-[#979797] hover:rounded-md p-1 transition duration-300 text-[#273240] hover:bg-[#A6ABC8] hover:text-[#5A67BA] hover:bg-opacity-30 ease-in-out cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M440 432H72a40 40 0 0 1-40-40V120a40 40 0 0 1 40-40h75.89a40 40 0 0 1 22.19 6.72l27.84 18.56a40 40 0 0 0 22.19 6.72H440a40 40 0 0 1 40 40v240a40 40 0 0 1-40 40M32 192h448"/></svg>
+                <a class="" href="">Project</a>
+            </li>
+            <li  class="flex gap-2  md:w-[150px] font-medium text-sm    hover:font-bold 2xl:w-[200px] hover:bg-[#979797] hover:rounded-md p-1 transition duration-300 text-[#273240] hover:bg-[#A6ABC8] hover:text-[#5A67BA] hover:bg-opacity-30 ease-in-out cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24"><g fill="currentColor"><path fill-rule="evenodd" d="M14 7a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1zm3 2h-2v6h2z" clip-rule="evenodd"/><path d="M6 7a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zm0 4a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2zm-1 5a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1"/><path fill-rule="evenodd" d="M4 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3zm16 2H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1" clip-rule="evenodd"/></g></svg>
+                <a class="" href="">Website</a>
+            </li>
+            <li  class="flex gap-2  md:w-[150px] font-medium text-sm    hover:font-bold 2xl:w-[200px] hover:bg-[#979797] hover:rounded-md p-1 transition duration-300 text-[#273240] hover:bg-[#A6ABC8] hover:text-[#5A67BA] hover:bg-opacity-30 ease-in-out cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 32 32"><path fill="currentColor" d="m5.25 2.75l-.563.531l-1.406 1.406l-.531.563l.406.656l2.094 3.5l.281.5H8.47l4 3.969c-3.574 3.59-8.121 8.152-8.281 8.313c-1.567 1.566-1.57 4.132.03 5.625c1.563 1.542 4.11 1.582 5.595 0l.03-.032L16 21.594l6.188 6.218l.093.063c1.57 1.48 4.067 1.5 5.532-.063v-.03h.03c1.532-1.567 1.548-4.114-.03-5.595l-.032-.03l-5.218-5.188c3.511-.328 6.261-3.293 6.312-6.875h.031c.004-.02 0-.043 0-.063V10c.098-1.156-.152-2.262-.75-3.219L27.47 5.72l-4.657 4.656l-1.406-1.469l4.75-4.75l-1.375-.562A7 7 0 0 0 22 3c-3.844 0-7 3.156-7 7c0 .418.09.781.156 1.156c-.437.438-.765.797-1.281 1.313L9.906 8.5V5.531l-.5-.281l-3.5-2.094zM22 5c.14 0 .238.082.375.094l-3.781 3.781l.687.719l2.813 2.906l.687.719L26.75 9.25c.02.23.184.398.156.656V10c0 2.754-2.246 5-5 5c-.367 0-.812-.086-1.312-.188l-.532-.093l-.375.375l-11.28 11.312h-.032v.032c-.71.777-1.953.796-2.781-.032v-.031h-.032c-.777-.71-.796-1.953.032-2.781c.379-.38 7.718-7.782 11.312-11.375l.407-.406l-.157-.563A6 6 0 0 1 17 10c0-2.754 2.246-5 5-5m-16.438.25l2.344 1.438v1l-.218.218h-1L5.25 5.563zm14.625 12.156l6.22 6.188v.031h.03c.778.71.797 1.953-.03 2.781h-.032v.032c-.71.777-1.953.796-2.781-.032l-6.188-6.218z"/></svg>
+                <a class="" href="">Tools</a>
+            </li>
+          </ul>
+        
+     </div>
+    <!-- end sidebar -->
+
+    <!-- content1 -->
+     <div id="content1" class="absolute mt-24 md:ml-64 2xl:ml-96 -z-10">
+        <h2>content</h2>
+        <!-- cards -->
+        <div class="mt-10 -z-10">
+            <div class="card w-[700px] h-[200px] bg-[#F1F2F7] border-gray-300 border rounded-lg p-4 mb-8 transition ease-in-out delay-150 hover:-translate-y-1  duration-150 hover:scale-110 shadow-sm">
+                <img class="w-[150px] h-[160px] rounded-xl p-2 flex justify-center items-center" src="https://images.unsplash.com/photo-1720048171180-a8178a198fa8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <div class="card-body p-4 ml-[180px] mt-[-170px]">
+                  <h2 class="font-medium">Card title!</h2>
+                  <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button class="bg-gray-200 border-gray-400 border rounded-lg p-2 mt-5 hover:bg-[#5A67BA] hover:text-white ">See more</button>
+                </div>
+            </div>
+        </div>
+        <div class="mt-10 -z-10">
+            <div class="card w-[700px] h-[200px] bg-[#F1F2F7] border-gray-300 border rounded-lg p-4 mb-8 transition ease-in-out delay-150 hover:-translate-y-1  duration-300 hover:scale-110 shadow-sm">
+                <img class="w-[150px] h-[160px] rounded-xl p-2 flex justify-center items-center" src="https://images.unsplash.com/photo-1720048171180-a8178a198fa8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <div class="card-body p-4 ml-[180px] mt-[-170px]">
+                  <h2 class="font-medium">Card title!</h2>
+                  <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button class="bg-gray-200 border-gray-400 border rounded-lg p-2 mt-5 hover:bg-[#5A67BA] hover:text-white ">See more</button>
+                </div>
+            </div>
+        </div>
+        <div class="mt-10 -z-10">
+            <div class="card w-[700px] h-[200px] bg-[#F1F2F7] border-gray-300 border rounded-lg p-4 mb-8 transition ease-in-out delay-150 hover:-translate-y-1  duration-300 hover:scale-110 shadow-sm">
+                <img class="w-[150px] h-[160px] rounded-xl p-2 flex justify-center items-center" src="https://images.unsplash.com/photo-1720048171180-a8178a198fa8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <div class="card-body p-4 ml-[180px] mt-[-170px]">
+                  <h2 class="font-medium">Card title!</h2>
+                  <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button class="bg-gray-200 border-gray-400 border rounded-lg p-2 mt-5 hover:bg-[#5A67BA] hover:text-white ">See more</button>
+                </div>
+            </div>
+        </div>
+
+     </div>
+    <!-- end content1 -->
+
+    <!-- content2 -->
+     
+      <div id="content2" class="absolute md:ml-64 2xl:ml-96 -z-10 mt-[1000px] border-gray-300 border rounded-md p-4 w-[1000px] h-[400px] mb-8">
+        <div class="mb-8">
+           <h1 class="text-3xl poppins-semiBold font-semibold p-4">Let's Set Up Your Accounts and Taxes</h1>
+           <p class=" px-4 py-2  poppins-regular">Accounts, Invoices, Taxation, and more.</p>
+        </div>
+        <!-- checkbox -->
+          <div class="px-4">
+          <div class="mb-2 hover:text-[#5A67BA]">
+            <input class="rounded-md cursor-pointer ring-[#5A67BA] focus-[#5A67BA] outline-[#5A67BA]" type="checkbox" name="" id="">
+            <label class="p-2 cursor-pointer " for="">Review Chart of Accounts</label>
+          </div>
+          <div class="mb-2 hover:text-[#5A67BA]">
+            <input class="rounded-md cursor-pointer" type="checkbox" name="" id="">
+            <label class="p-2 cursor-pointer " for="">Setting up Taxes</label>
+          </div>
+          <div class="mb-2 hover:text-[#5A67BA]">
+            <input class="rounded-md cursor-pointer" type="checkbox" name="" id="">
+            <label class="p-2 cursor-pointer " for="">Accounts Settings</label>
+          </div>
+          <div class="mb-2 hover:text-[#5A67BA]">
+            <input class="rounded-md cursor-pointer " type="checkbox" name="" id="">
+            <label class="p-2 cursor-pointer" for="">Cost Centers for Budgeting and Analysis</label>
+          </div>
+          <div class="mb-2  hover:text-[#5A67BA]">
+            <input class="rounded-md cursor-pointer" type="checkbox" name="" id="">
+            <label class="p-2 cursor-pointer" for="">Create Your First Purchase Invoice</label>
+          </div>
+         
+          </div>
+        <!-- end checkbox -->
+    </div>
+     
+     
+    <!-- end content2 -->
+</div>
+
+
+</body>
+</html>
